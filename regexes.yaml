@@ -2,7 +2,7 @@ user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
   # Zbooni Application
-  - regex: '(Zbooni|zbooni) (\\d+)\\.(\\d+)\\.?(\\d+)?'
+  - regex: '(Zbooni|zbooni) (\d+)\.(\d+)\.?(\d+)?'
     family_replacement: 'Zbooni App'
 
   # @note: iOS / OSX Applications
