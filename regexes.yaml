@@ -1,6 +1,10 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # Zbooni Application
+  - regex: 'Zbooni'
+    family_replacement: 'Zbooni App'
+
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)\.?(\d+)?)?'
     family_replacement: 'CFNetwork'
@@ -266,10 +270,6 @@ user_agent_parsers:
   # Yandex Browser
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Yandex Browser'
-
-  # Zbooni Application
-  - regex: 'Zbooni/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Zbooni App'
 
   # Mail.ru Amigo/Internet Browser (Chromium-based)
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+).* MRCHROME'
