@@ -267,6 +267,10 @@ user_agent_parsers:
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Yandex Browser'
 
+  # Zbooni Application
+  - regex: 'Zbooni/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Zbooni App'
+
   # Mail.ru Amigo/Internet Browser (Chromium-based)
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+).* MRCHROME'
     family_replacement: 'Mail.ru Chromium Browser'
